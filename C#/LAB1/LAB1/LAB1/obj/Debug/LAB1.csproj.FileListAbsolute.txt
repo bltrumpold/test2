@@ -1,7 +1,0 @@
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\bin\Debug\LAB1.exe.config
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\bin\Debug\LAB1.exe
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\bin\Debug\LAB1.pdb
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\obj\Debug\LAB1.csprojAssemblyReference.cache
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\obj\Debug\LAB1.csproj.CoreCompileInputs.cache
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\obj\Debug\LAB1.exe
-D:\A SCHOOL\S4\c#\LAB1\LAB1\LAB1\obj\Debug\LAB1.pdb

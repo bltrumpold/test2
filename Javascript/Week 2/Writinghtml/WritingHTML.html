@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html><head>
+<title>week2</title>
+<meta charset="UTF-8">
+    <meta name="description" content="Level 0">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   
+    <script type="text/javascript">
+        
+        var body = document.getElementsByTagName("body");
+        console.log(body);
+        var str="";
+        
+         var people =
+        [
+		{first:"Jason", last:"Vorhees", credit:"Friday the 13th"},
+		{first:"Freddy", last:"Krueger", credit:"A Nightmare on Elm Street" },
+		{first:"Roger", last:"Rabbit", credit:"Who Framed Roger Rabbit" },
+		{first:"Kevin", last:"McCallister", credit:"Home Alone" },
+		{first:"Godzilla", last:"King of The Monsters", credit:"Godzilla" },
+		{first:"Buzz", last:"Lightyear", credit:"Toy Story" },
+		{first:"Marion", last:"Cobretti", credit:"Cobra" }
+	   ]
+	
+        
+            for ( var i = 0; i < people.length; i++)
+            {
+                str += "<div id='" + i + "'  class='border'>"
+                
+                str += "<p>";
+                str += people[i].first;
+                str += "</p>";
+                
+                str += "<p>";
+                str += people[i].last;
+                str += "</p>";
+                
+                str += "<p>";
+                str += people[i].credit;
+                str += "</p>";
+                str += "</div>"
+            }
+            
+            body[0].innerHTML = str;
+    
+        
+        
+            
+    </script>
+</body>
+</html>

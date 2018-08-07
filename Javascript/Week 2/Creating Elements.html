@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head>
+<title>week1</title>
+<meta charset="UTF-8">
+    <meta name="description" content="Level 0">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+</head>
+<body>
+   
+    <script type="text/javascript">
+       
+        var body = document.querySelector('body');
+        
+        var people =[
+		{first:"Jason", last:"Vorhees", credit:"Friday the 13th"},
+		{first:"Freddy", last:"Krueger", credit:"A Nightmare on Elm Street" },
+		{first:"Roger", last:"Rabbit", credit:"Who Framed Roger Rabbit" },
+		{first:"Kevin", last:"McCallister", credit:"Home Alone" },
+		{first:"Godzilla", last:"King of The Monsters", credit:"Godzilla" },
+		{first:"Buzz", last:"Lightyear", credit:"Toy Story" },
+		{first:"Marion", last:"Cobretti", credit:"Cobra" }
+	]
+	
+                
+        var body = document.querySelector("body");
+        
+        for (let i=0; i<people.length;i++)
+        {
+            var tempDiv = document.createElement('div');
+            tempDiv.setAttribute("id", String(i));
+            tempDiv.style.border="1px solid black";
+            tempDiv.setAttribute("class",String(i).className="border");
+            
+            
+            var p = document.createElement('p');
+            var first = document.createTextNode(people[i].first);
+            
+            var p1 = document.createElement('p');
+            var last = document.createTextNode(people[i].last);
+            
+            var p2 = document.createElement('p');
+            var credit = document.createTextNode(people[i].credit);
+            
+            
+            tempDiv.appendChild(p);
+            tempDiv.appendChild(p1);
+            tempDiv.appendChild(p2);
+            p.appendChild(first);
+            p1.appendChild(last);
+            p2.appendChild(credit);
+            body.appendChild(tempDiv);
+            
+        }
+        console.log(body);
+    
+
+    </script>
+</body>
+</html>
+
+
+  
